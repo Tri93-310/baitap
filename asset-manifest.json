@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/baitap/static/css/main.e6c13ad2.css",
+    "main.js": "/baitap/static/js/main.cdb1807e.js",
+    "static/js/453.df75458b.chunk.js": "/baitap/static/js/453.df75458b.chunk.js",
+    "index.html": "/baitap/index.html",
+    "main.e6c13ad2.css.map": "/baitap/static/css/main.e6c13ad2.css.map",
+    "main.cdb1807e.js.map": "/baitap/static/js/main.cdb1807e.js.map",
+    "453.df75458b.chunk.js.map": "/baitap/static/js/453.df75458b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.cdb1807e.js"
+  ]
+}
