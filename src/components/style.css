@@ -1,0 +1,44 @@
+/* CSS cho trình chiếu */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Màu nền nhạt */
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .slideshow-container {
+    width: 300px; /* Đặt chiều rộng cho khung trình chiếu */
+    margin: 0 auto; /* Căn giữa trình chiếu */
+    position: relative;
+    border: 2px solid #ddd; /* Viền nhẹ cho khung ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    border-radius: 8px; /* Góc bo tròn */
+  }
+  
+  img {
+    width: 100%; /* Chiều rộng toàn phần cho ảnh */
+    height: auto; /* Đảm bảo tỷ lệ ảnh không bị méo */
+    border-radius: 8px; /* Bo tròn góc ảnh khớp với khung */
+  }
+  
+  .controls {
+    margin-top: 15px; /* Khoảng cách giữa ảnh và nút điều khiển */
+  }
+  
+  button {
+    padding: 10px 15px; /* Kích thước nút */
+    margin: 5px; /* Khoảng cách giữa các nút */
+    font-size: 16px; /* Cỡ chữ của nút */
+    background-color: #007bff; /* Màu nền xanh */
+    color: white; /* Màu chữ trắng */
+    border: none; /* Loại bỏ viền mặc định */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Thay đổi màu khi hover */
+  }
+  
